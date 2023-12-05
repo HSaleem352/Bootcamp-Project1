@@ -25,5 +25,7 @@ Alejandra - @AlejandraFeatherston
 
 # Datasets used 
 
+Comstock, C. E., Gatsonis, C., Newstead, G. M., Snyder, B. S., Gareen, I. F., Bergin, J. T., Rahbar, H., Sung, J. S., Jacobs, C., Harvey, J. A., Nicholson, M. H., Ward, R. C., Holt, J., Prather, A., Miller, K. D., Schnall, M. D., & Kuhl, C. K. (2023). Abbreviated Breast MRI and Digital Tomosynthesis Mammography in Screening Women With Dense Breasts (EA1141) (Version 1) [dataset]. The Cancer Imaging Archive. https://doi.org/10.7937/2BAS-HR33
+
 
 
