@@ -6,7 +6,7 @@
 
 # Members of the group
 Hamza Saleem - (@HSaleem352)
-Mina Bagheri - 
+Mina Bagheri - (@minalbm)
 Dean Ninalga - 
 Fozia - 
 shan lian - 
