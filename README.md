@@ -10,7 +10,7 @@ Mina Bagheri - (@minalbm)
 Dean Ninalga - 
 Fozia - 
 shan lian - 
-Alejandra - 
+Alejandra - AlejandraFeatherston
 
 
 # Work Breakdown 
