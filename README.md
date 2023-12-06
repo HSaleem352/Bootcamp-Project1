@@ -3,6 +3,11 @@
 
 # Description of Project
 
+The Cancer Research Project is centered around a comprehensive study aimed at comparing the efficacy of abbreviated breast magnetic resonance imaging (MRI) and digital breast tomosynthesis (DBT) in detecting invasive breast cancer among women with dense breasts during routine screening. This research, conducted at 48 locations in the United States and Germany from December 2016 to November 2017, engaged 1444 women aged 40 to 75 with either heterogeneously or extremely dense breasts.
+
+During the study, participants underwent both abbreviated breast MRI and DBT, and the interpretations of these examinations were conducted independently to mitigate bias. The primary focus was on the invasive cancer detection rate, complemented by secondary outcomes encompassing sensitivity, specificity, the rate of additional imaging recommendations, and the positive predictive value (PPV) of biopsy.
+
+The overarching goal of the project is to formulate screening guidelines and techniques. Additionally, the study delves into the correlation between the number of live births and the development of breast cancer. It seeks to investigate potential correlations related to age, genetic factors, family history, breast density, and demographic variables. This multifaceted approach aims to provide a more nuanced understanding of breast cancer risk factors and contribute valuable insights to screening practices.
 
 # Members of the group
 Hamza Saleem - (@HSaleem352)
