@@ -1,5 +1,4 @@
-## Bootcamp-Project1
-
+## Cancer Research Group
 
 # Description of Project
 
