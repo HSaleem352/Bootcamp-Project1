@@ -8,23 +8,26 @@ During the study, participants underwent both abbreviated breast MRI and DBT, an
 
 The overarching goal of the project is to formulate screening guidelines and techniques. Additionally, the study delves into the correlation between the number of live births and the development of breast cancer. It seeks to investigate potential correlations related to age, genetic factors, family history, breast density, and demographic variables. This multifaceted approach aims to provide a more nuanced understanding of breast cancer risk factors and contribute valuable insights to screening practices.
 
-## Members of the group
-Hamza Saleem - @HSaleem352
-Mina Bagheri - @minalbm
-Dean Ninalga - 
-Fozia - 
-shan lian - @Lians03
-Alejandra - @AlejandraFeatherston
-
-
-## Work Breakdown 
-
+## The questions we're going to answer are:
 - Alex: Looking at demographic factors like race, ethnicity, or age to see if there are any corelations with development of breast cancer
 - Fozia: Look at breast density or cup size and see if it had any correlation with development of breast cancer
 - Mina: Look at family history to see if there is a correlation with development of breast cancer
 - Shan: Look at genetic testing to see if women with certain genetic disorders are more likely to develope breast cancer
 - Hamza: Look at the number of live births and see if there is a correlation with development of breast cancer
 - Dean: Comparing the two different screening techniques and seeing if any were associated with more adverse events.
+
+## Members of the group
+Hamza Saleem - @HSaleem352
+Mina Bagheri - @minalbm
+Dean Ninalga - @Ninalgad 
+Fozia - @FoziaY
+shan lian - @Lians03
+Alejandra - @AlejandraFeatherston
+
+
+## Work Breakdown 
+
+
 
 
 ## Datasets used 
