@@ -10,7 +10,7 @@ The overarching goal of the project is to formulate screening guidelines and tec
 
 ## The questions we're going to answer are:
 1. Looking at demographic factors like race, ethnicity, or age to see if there are any corelations with development of breast cancer
-2. Fozia: Look at breast density or cup size and see if it had any correlation with development of breast cancer
+2. Look at breast density or cup size and see if it had any correlation with development of breast cancer
 3. Look at family history to see if there is a correlation with development of breast cancer
 4. Look at genetic testing to see if women with certain genetic disorders are more likely to develope breast cancer
 5. Look at the number of live births and see if there is a correlation with development of breast cancer
