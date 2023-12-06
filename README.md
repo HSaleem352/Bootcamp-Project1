@@ -17,12 +17,12 @@ The overarching goal of the project is to formulate screening guidelines and tec
 6. Comparing the two different screening techniques and seeing if any were associated with more adverse events
 
 ## Members of the group
-Hamza Saleem - @HSaleem352
-Mina Bagheri - @minalbm
-Dean Ninalga - @Ninalgad 
-Fozia - @FoziaY
-shan lian - @Lians03
-Alejandra - @AlejandraFeatherston
+-Hamza Saleem - @HSaleem352
+-Mina Bagheri - @minalbm
+-Dean Ninalga - @Ninalgad 
+-Fozia - @FoziaY
+-Shan Lian - @Lians03
+-Alejandra - @AlejandraFeatherston
 
 
 ## Work Breakdown 
