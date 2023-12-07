@@ -9,12 +9,12 @@ During the study, participants underwent both abbreviated breast MRI and DBT, an
 The overarching goal of the project is to formulate screening guidelines and techniques. Additionally, the study delves into the correlation between the number of live births and the development of breast cancer. It seeks to investigate potential correlations related to age, genetic factors, family history, breast density, and demographic variables. This multifaceted approach aims to provide a more nuanced understanding of breast cancer risk factors and contribute valuable insights to screening practices.
 
 ## The questions we're going to answer are:
-1. Looking at demographic factors like race, ethnicity, or age to see if there are any corelations with development of breast cancer
-2. Look at breast density or cup size and see if it had any correlation with development of breast cancer
-3. Look at family history to see if there is a correlation with development of breast cancer
-4. Look at genetic testing to see if women with certain genetic disorders are more likely to develope breast cancer
-5. Look at the number of live births and see if there is a correlation with development of breast cancer
-6. Comparing the two different screening techniques and seeing if any were associated with more adverse events
+1. Looking at demographic factors like race, ethnicity, or age to see if there are any corelations with development of breast cancer.
+2. Look at breast density or cup size and see if it had any correlation with development of breast cancer.
+3. Look at family history to see if there is a correlation with development of breast cancer.
+4. Look at genetic testing to see if women with certain genetic disorders are more likely to develope breast cancer.
+5. Look at the number of live births and see if there is a correlation with development of breast cancer.
+6. Comparing the two different screening techniques and seeing if any were associated with more adverse events.
 
 ## Members of the group
 -Hamza Saleem - @HSaleem352
@@ -28,12 +28,13 @@ The overarching goal of the project is to formulate screening guidelines and tec
 ## Work Breakdown 
 1. All group members will research databases on the topic and extract data from the National Cancer Institute (NCI).
 2. Alex, Shan, Fozia, and Dean will be responsible for cleaning and merging the raw data.
-3. Alex will be analyzing the clean data and answering question 1
-4. Fozia will be analyzing the clean data and answering question 2
-5. Mina will be analyzing the clean data and answering question 3
-6. Shan will be analyzing the clean data and answering question 4
-7. Hamza will be analyzing the clean data and answering question 5
-8. Dean will be analyzing the clean data and answering question 6
+3. Hamza and Fozia well be responsible for APIs.
+4. Alex will be analyzing the clean data and answering question 1.
+5. Fozia will be analyzing the clean data and answering question 2.
+6. Mina will be analyzing the clean data and answering question 3.
+7. Shan will be analyzing the clean data and answering question 4.
+8. Hamza will be analyzing the clean data and answering question 5.
+9. Dean will be analyzing the clean data and answering question 6.
 
 
 ## Datasets used 
