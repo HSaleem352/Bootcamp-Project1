@@ -42,5 +42,14 @@ Comstock, C. E., Gatsonis, C., Newstead, G. M., Snyder, B. S., Gareen, I. F., Be
 
 ## Code snippets
 
+
 ## Limitations
+1. Population Representation and Generalizability:
+The sample size is relatively small and is limited to women from Germany and the USA, restricting the study's ability to provide a comprehensive representation of diverse populations. The uneven distribution across different groups within this subset introduces complexity, impeding the extrapolation of findings to a broader range of women.
+
+2. Diminished Follow-Up Participation:
+The decreasing number of participants retained for the follow-up survey leads to a gradual reduction in the sample size over time. The diminishing sample size throughout the study duration may impact the robustness of the conclusions drawn.
+
+3. Scope of Variables:
+The data primarily focuses on imaging-related procedures and outcomes, neglecting other potentially relevant variables such as lifestyle factors, comorbidities, or socioeconomic indicators that could contribute to a more comprehensive analysis. The absence of these variables may limit the study's ability to capture the multifaceted nature of factors influencing breast health and cancer detection.
 
