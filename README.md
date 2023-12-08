@@ -1,12 +1,12 @@
 # Cancer Research Group
 
 ## Description of Project
-This project talks about 
-The Cancer Research Project is centered around a comprehensive study aimed at comparing the efficacy of abbreviated breast magnetic resonance imaging (MRI) and digital breast tomosynthesis (DBT) in detecting invasive breast cancer among women with dense breasts during routine screening. The data used for analysis, which is also employed in the above research, was gathered from a study conducted at 48 locations in the United States and Germany from December 2016 to November 2017. The study involved 1444 women aged 40 to 75 with either heterogeneously or extremely dense breasts.
 
-During the study, participants underwent both abbreviated breast MRI and DBT, and the interpretations of these examinations were conducted independently to mitigate bias. The primary focus was on the invasive cancer detection rate, complemented by secondary outcomes encompassing sensitivity, specificity, the rate of additional imaging recommendations, and the positive predictive value (PPV) of biopsy.
+Our project is based on a study conducted in collaboration with the COVID-19 and Cancer Consortium (CCC19) registry. This investigation explores the intersection of COVID-19 and breast cancer (BC) in females, spanning the period from March 2020 to June 2021 in the United States. The primary focus is on addressing critical gaps in understanding, with a particular emphasis on underrepresented racial and ethnic groups.
 
-The overarching goal of the project is to formulate screening guidelines and techniques. Additionally, the study delves into the correlation between the number of live births and the development of breast cancer. It seeks to investigate potential correlations related to age, genetic factors, family history, breast density, and demographic variables. This multifaceted approach aims to provide a more nuanced understanding of breast cancer risk factors and contribute valuable insights to screening practices.
+The study encompasses a cohort of 1383 female participants diagnosed with breast cancer and confirmed SARS-CoV-2 infection. The median age of participants is 61 years, and the follow-up period extends to 90 days. To ensure diversity and representation, the cohort includes individuals from various geographic regions within the United States.
+
+Our primary objective is to comprehensively assess the severity of COVID-19 outcomes among females with a history of breast cancer. Leveraging the CCC19 registry, we aim to identify specific factors influencing COVID-19 severity in this particular population. This knowledge is crucial for tailoring medical responses and interventions for individuals with breast cancer who contract COVID-19.
 
 ## The questions we're going to answer are:
 1. determining and examining outliers - Dean 
