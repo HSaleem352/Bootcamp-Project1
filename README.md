@@ -1,12 +1,10 @@
 # Cancer Research Group
 
 ## Description of Project
-This project talks about 
-The Cancer Research Project is centered around a comprehensive study aimed at comparing the efficacy of abbreviated breast magnetic resonance imaging (MRI) and digital breast tomosynthesis (DBT) in detecting invasive breast cancer among women with dense breasts during routine screening. The data used for analysis, which is also employed in the above research, was gathered from a study conducted at 48 locations in the United States and Germany from December 2016 to November 2017. The study involved 1444 women aged 40 to 75 with either heterogeneously or extremely dense breasts.
 
-During the study, participants underwent both abbreviated breast MRI and DBT, and the interpretations of these examinations were conducted independently to mitigate bias. The primary focus was on the invasive cancer detection rate, complemented by secondary outcomes encompassing sensitivity, specificity, the rate of additional imaging recommendations, and the positive predictive value (PPV) of biopsy.
+Our project is based on a study conducted in collaboration with the COVID-19 and Cancer Consortium (CCC19) registry. This investigation explores the intersection of COVID-19 and breast cancer (BC) in females, spanning the period from March 2020 to June 2021. The data encompasses a cohort of 1383 female participants diagnosed with breast cancer and confirmed SARS-CoV-2 infection. The median age of participants is 61 years, and the follow-up period extends to 90 days. To ensure diversity and representation, the cohort includes individuals from various geographic regions within the United States.
 
-The overarching goal of the project is to formulate screening guidelines and techniques. Additionally, the study delves into the correlation between the number of live births and the development of breast cancer. It seeks to investigate potential correlations related to age, genetic factors, family history, breast density, and demographic variables. This multifaceted approach aims to provide a more nuanced understanding of breast cancer risk factors and contribute valuable insights to screening practices.
+Our primary objective is to comprehensively assess the severity of COVID-19 outcomes among females with a history of breast cancer. Leveraging the CCC19 registry, we aim to identify specific factors influencing COVID-19 severity in this particular population. This knowledge is crucial for tailoring medical responses and interventions for individuals with breast cancer who contract COVID-19.
 
 ## The questions we're going to answer are:
 1. determining and examining outliers - Dean 
@@ -41,18 +39,13 @@ The overarching goal of the project is to formulate screening guidelines and tec
 
 ## Datasets used 
 
-Comstock, C. E., Gatsonis, C., Newstead, G. M., Snyder, B. S., Gareen, I. F., Bergin, J. T., Rahbar, H., Sung, J. S., Jacobs, C., Harvey, J. A., Nicholson, M. H., Ward, R. C., Holt, J., Prather, A., Miller, K. D., Schnall, M. D., & Kuhl, C. K. (2023). Abbreviated Breast MRI and Digital Tomosynthesis Mammography in Screening Women With Dense Breasts (EA1141) (Version 1) [dataset]. The Cancer Imaging Archive. https://doi.org/10.7937/2BAS-HR33
+
 
 ## Code snippets
 
 
 ## Limitations
-1. Population Representation and Generalizability:
-The sample size is relatively small and is limited to women from Germany and the USA, restricting the study's ability to provide a comprehensive representation of diverse populations. The uneven distribution across different groups within this subset introduces complexity, impeding the extrapolation of findings to a broader range of women.
-
-2. Diminished Follow-Up Participation:
-The decreasing number of participants retained for the follow-up survey leads to a gradual reduction in the sample size over time. The diminishing sample size throughout the study duration may impact the robustness of the conclusions drawn.
-
-3. Scope of Variables:
-The data primarily focuses on imaging-related procedures and outcomes, neglecting other potentially relevant variables such as lifestyle factors, comorbidities, or socioeconomic indicators that could contribute to a more comprehensive analysis. The absence of these variables may limit the study's ability to capture the multifaceted nature of factors influencing breast health and cancer detection.
+1. Vaccination status was not included in the study, as vaccines were not available during the predominant time frame for this cohort.
+2. Lack of additional information on drivers for inequity, such as socio-economic status, occupation, income, residence, education, and insurance status, limits insights into the root causes of disparities.
+3. The study's focus on females and the United States may limit the generalizability of findings to other demographic groups or regions.
 
