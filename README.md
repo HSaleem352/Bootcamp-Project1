@@ -45,9 +45,7 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 
 ## Limitations
-1. 
-
-2. 
-
-3. 
+1. Vaccination status was not included in the study, as vaccines were not available during the predominant time frame for this cohort.
+2. Lack of additional information on drivers for inequity, such as socio-economic status, occupation, income, residence, education, and insurance status, limits insights into the root causes of disparities.
+3. The study's focus on females and the United States may limit the generalizability of findings to other demographic groups or regions.
 
