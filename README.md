@@ -38,7 +38,7 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 
 ## Datasets used 
-
+Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19) breast cancer and racial disparities outcomes study. Zenodo. https://doi.org/10.5281/zenodo.7644334
 
 
 ## Code snippets
