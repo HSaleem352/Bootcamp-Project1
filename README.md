@@ -39,18 +39,15 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 ## Datasets used 
 
-Comstock, C. E., Gatsonis, C., Newstead, G. M., Snyder, B. S., Gareen, I. F., Bergin, J. T., Rahbar, H., Sung, J. S., Jacobs, C., Harvey, J. A., Nicholson, M. H., Ward, R. C., Holt, J., Prather, A., Miller, K. D., Schnall, M. D., & Kuhl, C. K. (2023). Abbreviated Breast MRI and Digital Tomosynthesis Mammography in Screening Women With Dense Breasts (EA1141) (Version 1) [dataset]. The Cancer Imaging Archive. https://doi.org/10.7937/2BAS-HR33
+
 
 ## Code snippets
 
 
 ## Limitations
-1. Population Representation and Generalizability:
-The sample size is relatively small and is limited to women from Germany and the USA, restricting the study's ability to provide a comprehensive representation of diverse populations. The uneven distribution across different groups within this subset introduces complexity, impeding the extrapolation of findings to a broader range of women.
+1. 
 
-2. Diminished Follow-Up Participation:
-The decreasing number of participants retained for the follow-up survey leads to a gradual reduction in the sample size over time. The diminishing sample size throughout the study duration may impact the robustness of the conclusions drawn.
+2. 
 
-3. Scope of Variables:
-The data primarily focuses on imaging-related procedures and outcomes, neglecting other potentially relevant variables such as lifestyle factors, comorbidities, or socioeconomic indicators that could contribute to a more comprehensive analysis. The absence of these variables may limit the study's ability to capture the multifaceted nature of factors influencing breast health and cancer detection.
+3. 
 
