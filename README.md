@@ -12,9 +12,7 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 3. Does obesity and age have an affect on Covid with Breast Cancer on male and female - Fozia
 4. How does race/ethnicity affect Covid with Breast Cancer on male and female - Shan
 5. Area of Patients' residence vs Covid with Breast Cancer on male and female - Hamza
-6. Alex Q here
-7. 
-8. 
+6. How does the timing of their breast cancer treatment affect their Covid outcomes - Alex
 
 ## Members of the group
 -Hamza Saleem - @HSaleem352
@@ -29,12 +27,12 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 1. All group members will research databases on the topic and extract data from the ncbi.
 2.All group members will be responsible for cleaning and merging the raw data.
 3. Hamza and Mina well be responsible for APIs.
-4. Alex will be analyzing the clean data and answering question
-5. Fozia will be analyzing the clean data and answering question 
-6. Mina will be analyzing the clean data and answering question 
-7. Shan will be analyzing the clean data and answering question 
-8. Hamza will be analyzing the clean data and answering question 
-9. Dean will be analyzing the clean data and answering question 
+4. Alex will be analyzing the clean data and answering question #6 
+5. Fozia will be analyzing the clean data and answering question #3
+6. Mina will be analyzing the clean data and answering question #2
+7. Shan will be analyzing the clean data and answering question #4
+8. Hamza will be analyzing the clean data and answering question #5
+9. Dean will be analyzing the clean data and answering question #1
 
 
 ## Datasets used 
