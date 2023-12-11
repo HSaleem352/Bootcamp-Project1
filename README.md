@@ -8,10 +8,10 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 ## The questions we're going to answer are:
 1. determining and examining outliers - Dean 
-2. Does smoking have an affect on Covid with Breast Cancer on male and female - Mina
-3. Does obesity and age have an affect on Covid with Breast Cancer on male and female - Fozia
-4. How does race/ethnicity affect Covid with Breast Cancer on male and female - Shan
-5. Area of Patients' residence vs Covid with Breast Cancer on male and female - Hamza
+2. Does smoking have an effect on COVID severity on individuals with Breast Cancer? - Mina
+3. Does obesity and age have an affect on Covid with Breast Cancer - Fozia
+4. How does race/ethnicity affect Covid with Breast Cancer - Shan
+5. Area of Patients' residence vs Covid with Breast Cancer - Hamza
 6. How does the timing of their breast cancer treatment affect their Covid outcomes - Alex
 
 ## Members of the group
@@ -25,14 +25,16 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 ## Work Breakdown 
 1. All group members will research databases on the topic and extract data from the ncbi.
-2.All group members will be responsible for cleaning and merging the raw data.
+2. All group members will be responsible for cleaning and merging the raw data.
 3. Hamza and Mina well be responsible for APIs.
-4. Alex will be analyzing the clean data and answering question #6 
-5. Fozia will be analyzing the clean data and answering question #3
-6. Mina will be analyzing the clean data and answering question #2
+4. Dean will be analyzing the clean data and answering question #1
+5. Mina will be analyzing the clean data and answering question #2
+6. Fozia will be analyzing the clean data and answering question #3
 7. Shan will be analyzing the clean data and answering question #4
 8. Hamza will be analyzing the clean data and answering question #5
-9. Dean will be analyzing the clean data and answering question #1
+9. Alex will be analyzing the clean data and answering question #6
+10. 
+    
 
 
 ## Datasets used 
@@ -44,6 +46,31 @@ Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19
 
 ## Limitations
 1. Vaccination status was not included in the study, as vaccines were not available during the predominant time frame for this cohort.
-2. Lack of additional information on drivers for inequity, such as socio-economic status, occupation, income, residence, education, and insurance status, limits insights into the root causes of disparities.
+2. Confounding variables include drivers for inequity, such as socio-economic status, occupation, income, residence, education, and insurance status, limits insights into the root causes of disparities.
 3. The study's focus on females and the United States may limit the generalizability of findings to other demographic groups or regions.
+4. The dataset only focuses on 2 conditions, breast cancer and covid-19, so there could be other factors affecting covid-19 cases.
+5. The data does not dive deeper into the history of smoking, rather generalizes if the subject smoked or not.
+6. 
+
+
+
+## References 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
