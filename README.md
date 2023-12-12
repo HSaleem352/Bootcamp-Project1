@@ -7,7 +7,7 @@ Our project is based on a study conducted in collaboration with the COVID-19 and
 Our primary objective is to comprehensively assess the severity of COVID-19 outcomes among females with a history of breast cancer. Leveraging the CCC19 registry, we aim to identify specific factors influencing COVID-19 severity in this particular population. This knowledge is crucial for tailoring medical responses and interventions for individuals with breast cancer who contract COVID-19.
 
 ## The questions we're going to answer are:
-1. determining and examining outliers. - Dean 
+1. What is the isolated effect of age on the risk of COVID-19 and Breast Cancer severe outcomes? - Dean 
 2. Does smoking have an effect on COVID severity on individuals with Breast Cancer? - Mina
 3. Amongst all the races with different BC statuses, is smoking a factor for them to have COVID? - Mina
 4. Does obesity and age have an affect on Covid with Breast Cancer? - Fozia
