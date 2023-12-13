@@ -56,7 +56,16 @@ Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19
 
 ## Analysis 
 
+**1. What is the isolated effect of age on the risk of COVID-19 and Breast Cancer severe outcomes? - Dean** 
+**2. Does smoking have an effect on COVID severity on individuals with Breast Cancer? - Mina**
 
+    In order to answer this question, a step by step procedure was taken. First,  
+   
+**4. Amongst all the races with different BC statuses, is smoking a factor for them to have COVID? - Mina
+5. Does obesity and age have an affect on Covid with Breast Cancer? - Fozia
+6. How does race/ethnicity affect Covid with Breast Cancer? - Shan
+7. Area of Patients' residence vs Covid with Breast Cancer. - Hamza
+8. How does the timing of their breast cancer treatment affect their Covid outcomes? - Alex**
 
 
 
