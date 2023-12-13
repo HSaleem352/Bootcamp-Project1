@@ -42,7 +42,17 @@ Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19
 
 
 ## Code snippets
+```python
+#grouping age, Covid severity and cancer status for analysis 
+age_covid_df = analysis_df[['der_age_trunc', 'severity_of_covid_19_v2', 'der_cancer_status_v4']]
 
+# Filter out rows with unknown cancer status
+age_covid_df = age_covid_df[age_covid_df['der_cancer_status_v4'] != 'Unknown']
+
+# Filter out rows with unknown COVID severity
+age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
+
+``` 
 
 ## Resources Used
 I have referred to a few online resources for certain tasks with difficulty, namely: Stackoverflow and Chatgpt
