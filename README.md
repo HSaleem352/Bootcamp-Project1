@@ -15,6 +15,12 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 6. Area of Patients' residence vs Covid with Breast Cancer. - Hamza
 7. How does the timing of their breast cancer treatment affect their Covid outcomes? - Alex
 
+## API
+- API used: https://health.gov/myhealthfinder
+- The Website is found by Shan.
+- The API Analysis is done by both Mina and Hamza.
+- The API is used to gather general information about Breast Cancer. 
+
 ## Members of the group
 -Hamza Saleem - @HSaleem352
 -Mina Bagheri - @minalbm
