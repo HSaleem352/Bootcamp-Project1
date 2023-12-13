@@ -44,6 +44,8 @@ Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19
 ## Code snippets
 
 
+## Resources Used
+I have referred to a few online resources for certain tasks with difficulty, namely: Stackoverflow and Chatgpt
 ## Limitations
 1. Vaccination status was not included in the study, as vaccines were not available during the predominant time frame for this cohort.
 2. Lack of additional information on drivers for inequity, such as socio-economic status, occupation, income, residence, education, and insurance status, limits insights into the root causes of disparities.
