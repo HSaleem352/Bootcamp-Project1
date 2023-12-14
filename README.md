@@ -53,12 +53,6 @@ age_covid_df = age_covid_df[age_covid_df['der_cancer_status_v4'] != 'Unknown']
 age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 
 ``` 
-
-
-Ogboi Favour Ifeanyichukwu
-8:25 PM (3 minutes ago)
-to me
-
 # Breast Cancer and COVID-19 Analysis
 
 ## Overview
