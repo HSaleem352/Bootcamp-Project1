@@ -60,7 +60,23 @@ Hamza:
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
 barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
 
+API:
+The following code was used to remove all the spans in order to extract only the text. 
 
+soup = BeautifulSoup("""<h4>What about cost?</h4>
+<p><span><span><span><span><span><span><span>Under the&nbsp;Affordable Care Act, insurance plans must cover mammograms for women over age 40. Depending on your insurance plan, you may be able to get mammograms at no cost to you. Check with your insurance company to find out more. </span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>Medicare also covers mammograms for women over age 40 at no cost. href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/http/www.medicare.gov/coverage/mammograms.html?_label_=Find+out+about+Medicare+coverage+for+mammograms">Find out about Medicare coverage for mammograms.</span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>If you don’t have insurance, you can still get mammograms. href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/https/www.cdc.gov/cancer/nbccedp/screenings.htm?_label_=Find+a+program+near+you+that+offers+free+or+low-cost+mammograms">Find a program near you that offers free or low-cost mammograms.</span></span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><span>To learn more, check out these resources:</span></span></span></span></span></span></span></p>
+<ul>
+	<p><span><span><span> href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/https/www.healthcare.gov/preventive-care-women/?_label_=Free+preventive+care%26nbsp%3Bfor+women+covered+by+the+Affordable+Care+Act">Free preventive care&nbsp;for women covered by the Affordable Care Act</span></span></span></p>
+	<p><span><span><span> href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/https/www.healthcare.gov/health-care-law-protections/?_label_=How+the+Affordable+Care+Act+protects+you">How the Affordable Care Act protects you &nbsp;&nbsp;</span></span></span></p>
+	<p> href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/https/marketplace.cms.gov/technical-assistance-resources/c2c-roadmap.pdf?_label_=Understanding+your+health+insurance+and+how+to+use+it+%5BPDF+-+698%26nbsp%3BKB%5D" id="anch_81">Understanding your health insurance and how to use it [PDF - 698&nbsp;KB]</p>
+</ul>""", 'html.parser')
+
+p_tags = soup.find_all('p')
+for p in p_tags:
+    print(p.get_text())
 
 
 
@@ -115,6 +131,9 @@ The patients with moderate status (patients hospitalized for COVID), and severe 
 ## References 
 
 
+
+**API**:
+How To Eliminate Span & Other HTML Tags With BeautifulSoup: https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
 
 
 
