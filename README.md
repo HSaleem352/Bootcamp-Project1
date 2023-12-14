@@ -12,7 +12,7 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 3. Amongst all the races with different BC statuses, is smoking a factor for them to have COVID? - Mina
 4. Does obesity and age have an affect on Covid with Breast Cancer? - Fozia
 5. How does race/ethnicity affect Covid with Breast Cancer? - Shan
-6. Area of Patients' residence vs Covid with Breast Cancer. - Hamza
+6. Is the severity of covid-19 affected if the individuals live in urban, suburban, or rural areas? - Hamza
 7. How does the timing of their breast cancer treatment affect their Covid outcomes? - Alex
 
 ## API
@@ -54,7 +54,16 @@ age_covid_df = age_covid_df[age_covid_df['der_cancer_status_v4'] != 'Unknown']
 # Filter out rows with unknown COVID severity
 age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 
-``` 
+```
+
+Hamza:
+The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
+barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
+
+
+
+
+
 
 ## Limitations
 1. Vaccination status was not included in the study, as vaccines were not available during the predominant time frame for this cohort.
@@ -62,8 +71,6 @@ age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 3. The study's focus on females and the United States may limit the generalizability of findings to other demographic groups or regions.
 4. The dataset only focuses on 2 conditions, breast cancer and covid-19, so there could be other factors affecting covid-19 cases.
 5. The data does not dive deeper into the history of smoking, rather generalizes if the subject smoked or not.
-
-## References 
 
 ## Analysis 
 
@@ -87,12 +94,21 @@ The patients with moderate status (patients hospitalized for COVID), and severe 
   The hypothesis for this experiment was that "Amongst all the races with different breast cancer statuses, smoking is a factor for them to have COVID". However, looking at the pie charts and with the analysis which was done, it could be seen that amongst all the races smoking is not a factor for the individuals with active and stable as well as active and progressing breast cancer statuses to have COVID-19. However, amongst all the races smoking is a factor for the individuals with active and responding breast cancer status to have COVID-19. A hypothesis testing called chi-squared was also done to test the hypothesis. Two different groups of smokers and non-smokers were tested. This resulted in a p-value of 0.34 and 0.55 respectively for individuals with different races and active and stable as well as active and progressing breast cancer statuses which is greater than 0.05. Therefore, the null hypothesis cannot be rejected and it can be concluded that there is no significant difference between the two data sets and as a result, amongst all the races smoking is not a factor for the individuals with active and stable as well as active and progressing breast cancer statuses to have COVID-19. However, the p-value for the individuals with active and responding breast cancer status is 0.03 which is less than 0.05. Therefore, the null hypothesis is rejected and it can be concluded that there is a significant difference between the two data sets and as a result, amongst all the races smoking is a factor for the individuals with active and responding breast cancer status to have COVID-19.
 
 **5. Does obesity and age have an affect on Covid with Breast Cancer? - Fozia**
+
 **6. How does race/ethnicity affect Covid with Breast Cancer? - Shan**
-**7. Area of Patients' residence vs Covid with Breast Cancer. - Hamza**
+
+**7. Is the severity of covid-19 affected if the individuals live in urban, suburban, or rural areas? - Hamza**
+
+  In this part of the analysis, the residence of the patients' has been studied. By residence, the analysis means if the patient lived in an urban, suburban, or rural setting. The first part of this analysis explores how many cases of Covid-19 were reported in each residence type. By just examining the pie chart, the suburban type had the most amount of cases reported followed by urban and then rural. This suggests that living in the suburbs or the city would have a higher chance of getting Covid-19. However, it should also be noted that there is a higher population living in suburbs and city compared to rural areas that the dataset does not consider. 
+  Moreover, the analysis examines the severity of Covid-19 in each respective residence type. For this case, the severity is divided into 3 categories, mild, morderate, and severe. The null hypothesis is that the severity of Covid-19 is not affected by the type of residence. On the other hand, the alternate hypothesis is that the type of residence has an affect on the severity of Covid-19. In order to answer this hypothesis, the bar graphs were examined. The bar graphs show the number of cases reported as mild, morderate, or severe in each of the residence types. By visually inspecting the graphs, it would appear that there is a trend in the number of cases reported. The mild cases are very high, the morderate cases are about a quarter of the mild cases, and the severe cases are about one fifth of the morderate cases. This trend is similar in all three cases which suggests that there is no relevant association between the severity of Covid-19 and the type of residence. To futher examine this, the chi-square contingency test was performed yielding a p-value of 0.07. If the common threshold of 0.05 is used then the null hypothesis is acceptable. This means that there is no association between the type of residence and the severity of Covid-19. 
+  Even though the null hypothesis is accepted, it should be noted that the p-value was very close to the threshold. This suggests that there might be some sort of association between the two factors. The analysis is limited by a number of factors such as the amount of data working with. The number of cases for rural areas are significantly lower than in other residence types, therefore, with more data, the result might lean on the alternate hypothesis.
+
+  
 **8. How does the timing of their breast cancer treatment affect their Covid outcomes? - Alex**
 
 
 
+## References 
 
 
 
