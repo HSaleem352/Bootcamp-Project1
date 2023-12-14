@@ -8,7 +8,7 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 
 ## The questions we're going to answer are:
 1. What is the isolated effect of age on the risk of COVID-19 and Breast Cancer severe outcomes? - Dean 
-2. Does smoking have an effect on COVID severity on individuals with Breast Cancer? - Mina
+2. Is smoking a factor to have a severe COVID for individuals with Breast Cancer? - Mina
 3. Amongst all the races with different BC statuses, is smoking a factor for them to have COVID? - Mina
 4. Does obesity and age have an affect on Covid with Breast Cancer? - Fozia
 5. How does race/ethnicity affect Covid with Breast Cancer? - Shan
@@ -68,7 +68,7 @@ age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 ## Analysis 
 
 **1. What is the isolated effect of age on the risk of COVID-19 and Breast Cancer severe outcomes? - Dean** 
-**2. Does smoking have an effect on COVID severity on individuals with Breast Cancer? - Mina**
+**2. Is smoking a factor to have a severe COVID for individuals with Breast Cancer? - Mina**
 
   In order to answer this question, a step by step procedure was taken. First, the overall smoking status over the entire data set was analyzed. The data was isolated and cleaned for the smoking status only. This led to a bar graph to be created to display the differences between the individuals who ever have smoked in their life and the individuals who never have smoked in their life. The Smoking_Plot(1) displays that in our dataset, the number of people who has never smoked in their life is higher than the number of people who are either a current or former smokers. Next, the number of individuals who had breast cancer at the time of COVID-19 diagnosis VS. the smoking status was analyzed. The data was isolated and cleaned for this purpose. Then, a dataframe was created in order to create another bar graph called Smoking_Plot(2) to be able to compare the outcomes. Refering to this plot, the number of non-smoker individuals for all three breast cancer statuses (Active and responding, Active and stable, Active and progressing) was higher than number of smokers, showing that the smoking status did not have an effect on the breast cancer statuses. Next, the severity of COVID-19 was compared to the smoking status. The data was isolated and cleaned for this purpose. Then a dataframe was created in order to create a bar graph called Smoking_Plot(3) to be able to compare the outcomes. Refering to this plot, the number of non-smoker individuals for all three COVID-19 severity types (Mild, Moderate, Severe) was higher than number of smokers, showing that being a smoker does not have an effect on the severity of COVID-19. Lastly, the breast cancer statuses and the severity of COVID-19 was compared to the smoking status to check if the being a smoker for the individuals with different type of breast cancer has an effect on the severity of the COVID-19. For this purpose, the data was isolated and cleaned. Then, three different dataframes were created for each severity of COVID-19. Each dataframe compares the severity of COVID-19 and the three statuses of breast cancer with the smoking status. Plots Smoking_Plot(4), Smoking_Plot(5), and Smoking_Plot(6) display the results. Refering to these plots, it can be concluded that being a smoker while having a breast cancer, does not have an effect on the COVID-19 severity.
 
