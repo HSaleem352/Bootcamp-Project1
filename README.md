@@ -55,6 +55,12 @@ age_covid_df = age_covid_df[age_covid_df['der_cancer_status_v4'] != 'Unknown']
 age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 
 ```
+Mina:
+The following code would change the style of the graph to be in a pastel color.
+plt.style.use('seaborn-v0_8-pastel')
+
+In order for the saved graph to not be cut-off the following code is used.
+plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
 
 Hamza:
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
@@ -130,7 +136,9 @@ The patients with moderate status (patients hospitalized for COVID), and severe 
 
 ## References 
 
-
+**Mina**:
+How to save a matplotlib figure and fix text cutting off: https://www.youtube.com/watch?v=C8MT-A7Mvk4
+chi-squared test: Chat GPT
 
 **API**:
 How To Eliminate Span & Other HTML Tags With BeautifulSoup: https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
