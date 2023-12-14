@@ -54,6 +54,40 @@ age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 
 ``` 
 
+
+Ogboi Favour Ifeanyichukwu
+8:25 PM (3 minutes ago)
+to me
+
+# Breast Cancer and COVID-19 Analysis
+
+## Overview
+
+This repository contains Python code for analyzing the correlation and impact of age, obesity, and breast cancer status on the severity of COVID-19 outcomes in individuals with breast cancer.
+
+## Analysis Steps
+
+- **Data Collection:** Loaded the dataset into a pandas DataFrame using `pd_read`.
+
+- **Data Cleaning:** Ensured proper data types and created a structured analysis DataFrame.
+
+- **Exploratory Data Analysis:**
+
+  - Visualized the distribution of COVID-19 severity levels in individuals with breast cancer.
+  
+  - Explored the distribution of cancer status to gain insights into the dataset characteristics.
+
+  - Investigated the correlation between age and obesity status to understand potential relationships.
+
+## Why it was Done
+
+The analysis aims to explore correlations and patterns between age, obesity, and COVID-19 severity in individuals with breast cancer, providing insights into factors influencing COVID-19 outcomes in this specific population.
+
+## How it was Done
+
+The analysis was conducted using Python, leveraging pandas, seaborn, and matplotlib for data manipulation and visualization. The code is organized into distinct steps for clarity.
+
+
 ## Resources Used
 I have referred to a few online resources for certain tasks with difficulty, namely: Stackoverflow and Chatgpt
 ## Limitations
