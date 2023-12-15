@@ -65,9 +65,10 @@ plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
 Shan:
 The following code was used to generate a multiple line chart that illustrates the distribution of data among various racial groups (Race) concerning COVID-19 severity.
 ```python
+# Plot the data points for each racial group with markers
 plt.figure(figsize=(10, 6))
 for index, row in df.iterrows():
-    #plt.plot(row.index[1:], row.values[1:], marker='o', label=row['Race'])
+    plt.plot(row.index[1:], row.values[1:], marker='o', label=row['Race'])
 plt.title('COVID-19 Severity by Race')
 
 
