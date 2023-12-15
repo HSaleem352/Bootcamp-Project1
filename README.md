@@ -45,6 +45,7 @@ Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19
 
 ## Code snippets
 ```python
+Dean:
 #grouping age, Covid severity and cancer status for analysis 
 age_covid_df = analysis_df[['der_age_trunc', 'severity_of_covid_19_v2', 'der_cancer_status_v4']]
 
@@ -64,7 +65,6 @@ plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
 
 Shan:
 The following code was used to generate a multiple line chart that illustrates the distribution of data among various racial groups (Race) concerning COVID-19 severity.
-```python
 # Plot the data points for each racial group with markers
 plt.figure(figsize=(10, 6))
 for index, row in df.iterrows():
@@ -74,11 +74,12 @@ plt.title('COVID-19 Severity by Race')
 
 Hamza:
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
+#
 barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
 
 API:
 The following code was used to remove all the spans in order to extract only the text. 
-
+#
 soup = BeautifulSoup("""<h4>What about cost?</h4>
 <p><span><span><span><span><span><span><span>Under the&nbsp;Affordable Care Act, insurance plans must cover mammograms for women over age 40. Depending on your insurance plan, you may be able to get mammograms at no cost to you. Check with your insurance company to find out more. </span></span></span></span></span></span></span></p>
 <p><span><span><span><span><span><span><span>Medicare also covers mammograms for women over age 40 at no cost. href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/http/www.medicare.gov/coverage/mammograms.html?_label_=Find+out+about+Medicare+coverage+for+mammograms">Find out about Medicare coverage for mammograms.</span></span></span></span></span></span></span></p>
