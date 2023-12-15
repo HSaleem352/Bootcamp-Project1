@@ -62,6 +62,14 @@ plt.style.use('seaborn-v0_8-pastel')
 In order for the saved graph to not be cut-off the following code is used.
 plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
 
+Shan:
+The following code was used to generate a multiple line chart that illustrates the distribution of data among various racial groups (Race) concerning COVID-19 severity.
+plt.figure(figsize=(10, 6))
+for index, row in df.iterrows():
+    plt.plot(row.index[1:], row.values[1:], marker='o', label=row['Race'])
+plt.title('COVID-19 Severity by Race')
+
+
 Hamza:
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
 barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
@@ -83,6 +91,8 @@ soup = BeautifulSoup("""<h4>What about cost?</h4>
 p_tags = soup.find_all('p')
 for p in p_tags:
     print(p.get_text())
+
+
 
 
 
@@ -129,6 +139,13 @@ In conclusion,
 In summary, our findings highlight the complex interplay between age, obesity, and COVID-19 severity in breast cancer patients. Age emerged as a significant factor in predicting symptom severity, while obesity alone did not solely determine outcomes. The nuanced correlation between age and obesity reinforces the need to consider multiple factors for a comprehensive understanding of how these variables influence COVID-19 outcomes in individuals with breast cancer.
 
 **5. How does race/ethnicity affect Covid with Breast Cancer? - Shan**
+In order to answer this question, I conducted a comprehensive analysis of the relationship between race and two critical health factors: COVID-19 severity and breast cancer incidence. My hypothesis posits a positive correlation between race and the prevalence and severity of both conditions. The dataset I utilized encompasses data on race, COVID-19 severity, and cancer status, enabling a thorough examination of these associations.
+
+In my analysis, I took measures to rectify sample population imbalances by employing a weighted averaging technique for each race category, including COVID-19 severity levels. This approach ensured equitable representation within the dataset.The findings of my study reveal compelling evidence of a significant association between Race/Ethnic Distribution and both COVID-19 severity and breast cancer status.Regarding COVID-19 severity, the Chi-Square test resulted in a p-value of 0.0044, which is below the conventional threshold of 0.05 for statistical significance. This outcome indicates a clear association between Race/Ethnic Distribution and the severity of COVID-19 cases. My analysis unveiled distinct patterns in COVID-19 severity among various racial and ethnic groups. In general, mild cases were the most prevalent, followed by moderate and severe cases. Notably, the 'Non-Hispanic Black,' 'Non-Hispanic AAPI,' and 'Other' categories exhibited higher percentages of moderate and severe COVID-19 cases. In contrast, the 'Hispanic' population experienced milder symptoms, while the 'Non-Hispanic White' group displayed a more balanced distribution. Factors contributing to these disparities may include variations in treatment, therapy (such as ICU admission and hospitalization), or pre-existing underlying health conditions among these racial groups.
+
+Regarding breast cancer, the Chi-Square test yielded a Chi-squared value of 98.05 and an exceptionally low p-value of 2.81e-12, significantly below the conventional 0.05 threshold for statistical significance. This result underscores a robust and statistically significant association between Race/Ethnic Distribution and breast cancer status.Specifically, within the 'Remission or no evidence of disease, <5 years' category, several racial groups exhibit a higher prevalence, pointing to favorable early-stage cancer outcomes and successful treatments. Both the Hispanic and Non-Hispanic White populations display significant percentages in this category, suggesting a substantial number of individuals recovering from cancer within the first five years. However, when focusing on the 'Active' categories, it becomes evident that Hispanic and Non-Hispanic Asian American and Pacific Islander (AAPI) populations have a higher rate of active breast cancer cases. These 'Active' statuses encompass 'Active and progressing,' 'Active and responding,' and 'Active and stable.' This disparity in active breast cancer rates may be influenced by various factors, including genetic predispositions, socioeconomic status, access to healthcare, underlying health conditions, or other social determinants of health correlated with race and ethnicity.
+
+In conclusion, my research emphasizes the critical role of Race/Ethnic Distribution in influencing the incidence and progression of both COVID-19 severity and breast cancer. These findings underscore the complexity of health disparities among different racial and ethnic groups and underscore the need for targeted healthcare interventions and strategies to comprehensively address these disparities, ultimately leading to improved health outcomes.
 
 **6. Is the severity of covid-19 affected if the individuals live in urban, suburban, or rural areas? - Hamza**
 
@@ -146,6 +163,7 @@ In order to perform this analysis, I first collected the proportion of individua
 Next, I examined individuals that underwent cytotoxic chemotherapy, targeted radiation, endocrine therapy, or immunotherapy as well as the proportion of individuals that underwent no breast cancer therapy and calculated the proportion of individuals that had mild, moderate, or severe outcomes for each type of BC therapy. I ploted the individual counts onto a bar chart to better visualize the data and performed a chi squared analysis on the proportions. Since the p-value is greater than 0.05 for each covid outcome group, we fail to reject the null hypothesis and cannot say that there is a link between the type of breast cancer therapy and the covid-19 outcome for these patients. We would have to conduct a further analysis on the correlation between the type of breast cancer therapy and the covid-19 outcome to see if and what kind of effect there is.
 
 **8. API**
+
   The objective of this API was to retrieve information about breast cancer and the next steps. The API was filtered for females only, with age group around 60 Years Old since the dataset for this project reflects these filters. The API was retrieved from health.gov/myhealthfinder and only focuses on United States since the dataset only covers United States. This API states that breast cancer is one of the most common kinds of cancer in women. About 1 in 8 women in the United States will get breast cancer during her lifetime. Furthermore, breast cancer is a cancer that forms in breast tissue and like all cancers, it can spread to other parts of the body. The API further explains to talk with your doctor or nurse if the female notices any of these changes: A lump or an area that feels very firm in the breast or armpit, A change in the size, shape, or feel of the breast, Fluid (called discharge) coming out of a nipple, Skin on the breast that is itchy, red, flaky, or dimpled. Moreover, mammograms let the doctor or nurse look for lumps or other changes inside the breasts that can’t be felt from the outside. If the doctor finds a lump or another change in the breast tissue, other tests may be needed to find out if it’s cancer or not. The doctor or nurse may take a small bit of tissue from the breast for testing. This procedure is called a biopsy. Lastly, under the Affordable Care Act, insurance plans must cover mammograms for women over age 40. Depending on the insurance plan, mammograms might be free of cost. Check with the insurance company to find out more. However, this only relates to individuals in the United States.
 
 
