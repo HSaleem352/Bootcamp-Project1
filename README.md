@@ -188,6 +188,13 @@ chi-squared test: Chat GPT
 Used chatGPT for the sns.countplot() function. Sns is seaborn imported as sns and the countplot plots the length of rows for the categories. Then plots them as a bar graph
 Used ChatGPT for chi2_contingency(). The chi-square contingency test is used to determine whether there is a significant association between two categorical variables.
 
+**Alex**: 
+- I used this link for background information on the link between cancer therapy and immune system: https://www.cancer.org/cancer/managing-cancer/side-effects/low-blood-counts/infections/why-people-with-cancer-are-at-risk.html
+- I used this link for plotting multiple bar charts: https://www.geeksforgeeks.org/plotting-multiple-bar-charts-using-matplotlib-in-python/
+- I used this to get the column names: https://www.geeksforgeeks.org/how-to-get-column-names-in-pandas-dataframe/
+![image](https://github.com/HSaleem352/Bootcamp-Project1/assets/147428025/b6a83cde-2a3a-4271-9d28-df93000c4424)
+
+
 **API**:
 How To Eliminate Span & Other HTML Tags With BeautifulSoup: https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
 
