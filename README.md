@@ -58,28 +58,31 @@ age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 ```
 Mina:
 The following code would change the style of the graph to be in a pastel color.
+```python
 plt.style.use('seaborn-v0_8-pastel')
-
+```
 In order for the saved graph to not be cut-off the following code is used.
+```python
 plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
-
+```
 Shan:
 The following code was used to generate a multiple line chart that illustrates the distribution of data among various racial groups (Race) concerning COVID-19 severity.
+```python
 #Plot the data points for each racial group with markers
 plt.figure(figsize=(10, 6))
 for index, row in df.iterrows():
     plt.plot(row.index[1:], row.values[1:], marker='o', label=row['Race'])
 plt.title('COVID-19 Severity by Race')
-
+```
 
 Hamza:
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
-#
+```python
 barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
-
+```
 API:
 The following code was used to remove all the spans in order to extract only the text. 
-#
+```python
 soup = BeautifulSoup("""<h4>What about cost?</h4>
 <p><span><span><span><span><span><span><span>Under the&nbsp;Affordable Care Act, insurance plans must cover mammograms for women over age 40. Depending on your insurance plan, you may be able to get mammograms at no cost to you. Check with your insurance company to find out more. </span></span></span></span></span></span></span></p>
 <p><span><span><span><span><span><span><span>Medicare also covers mammograms for women over age 40 at no cost. href="https://health.gov/myhealthfinder/api/outlink/myhealthfinder.json/http/www.medicare.gov/coverage/mammograms.html?_label_=Find+out+about+Medicare+coverage+for+mammograms">Find out about Medicare coverage for mammograms.</span></span></span></span></span></span></span></p>
@@ -94,7 +97,7 @@ soup = BeautifulSoup("""<h4>What about cost?</h4>
 p_tags = soup.find_all('p')
 for p in p_tags:
     print(p.get_text())
-
+```
 
 
 
