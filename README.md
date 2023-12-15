@@ -180,6 +180,10 @@ Next, I examined individuals that underwent cytotoxic chemotherapy, targeted rad
 How to save a matplotlib figure and fix text cutting off: https://www.youtube.com/watch?v=C8MT-A7Mvk4
 chi-squared test: Chat GPT
 
+*** Hamza ***:
+Used chatGPT for the sns.countplot() function. Sns is seaborn imported as sns and the countplot plots the length of rows for the categories. Then plots them as a bar graph
+Used ChatGPT for chi2_contingency(). The chi-square contingency test is used to determine whether there is a significant association between two categorical variables.
+
 **API**:
 How To Eliminate Span & Other HTML Tags With BeautifulSoup: https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
 
