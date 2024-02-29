@@ -1,0 +1,26 @@
+,Race,Cancer Status,Percentage
+0,Hispanic,Active and progressing,9.47867298578199
+1,Hispanic,Active and responding,26.540284360189574
+2,Hispanic,Active and stable,16.587677725118482
+3,Hispanic,"Remission or no evidence of disease, <5 years",36.492890995260666
+4,Hispanic,"Remission or no evidence of disease, >5 years",10.90047393364929
+5,Non-Hispanic AAPI,Active and progressing,15.384615384615385
+6,Non-Hispanic AAPI,Active and responding,7.6923076923076925
+7,Non-Hispanic AAPI,Active and stable,25.64102564102564
+8,Non-Hispanic AAPI,"Remission or no evidence of disease, <5 years",28.205128205128204
+9,Non-Hispanic AAPI,"Remission or no evidence of disease, >5 years",23.076923076923077
+10,Non-Hispanic Black,Active and progressing,10.150375939849624
+11,Non-Hispanic Black,Active and responding,13.157894736842104
+12,Non-Hispanic Black,Active and stable,10.526315789473683
+13,Non-Hispanic Black,"Remission or no evidence of disease, <5 years",37.59398496240601
+14,Non-Hispanic Black,"Remission or no evidence of disease, >5 years",28.57142857142857
+15,Non-Hispanic White,Active and progressing,6.020558002936858
+16,Non-Hispanic White,Active and responding,9.985315712187958
+17,Non-Hispanic White,Active and stable,13.362701908957417
+18,Non-Hispanic White,"Remission or no evidence of disease, <5 years",34.36123348017621
+19,Non-Hispanic White,"Remission or no evidence of disease, >5 years",36.27019089574156
+20,Other,Active and progressing,4.615384615384616
+21,Other,Active and responding,16.923076923076923
+22,Other,Active and stable,7.6923076923076925
+23,Other,"Remission or no evidence of disease, <5 years",40.0
+24,Other,"Remission or no evidence of disease, >5 years",30.76923076923077

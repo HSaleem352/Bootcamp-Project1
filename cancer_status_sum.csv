@@ -1,0 +1,26 @@
+,Race,Cancer Status,Count
+0,Hispanic,Active and progressing,20
+1,Hispanic,Active and responding,56
+2,Hispanic,Active and stable,35
+3,Hispanic,"Remission or no evidence of disease, <5 years",77
+4,Hispanic,"Remission or no evidence of disease, >5 years",23
+6,Non-Hispanic AAPI,Active and progressing,6
+7,Non-Hispanic AAPI,Active and responding,3
+8,Non-Hispanic AAPI,Active and stable,10
+9,Non-Hispanic AAPI,"Remission or no evidence of disease, <5 years",11
+10,Non-Hispanic AAPI,"Remission or no evidence of disease, >5 years",9
+12,Non-Hispanic Black,Active and progressing,27
+13,Non-Hispanic Black,Active and responding,35
+14,Non-Hispanic Black,Active and stable,28
+15,Non-Hispanic Black,"Remission or no evidence of disease, <5 years",100
+16,Non-Hispanic Black,"Remission or no evidence of disease, >5 years",76
+18,Non-Hispanic White,Active and progressing,41
+19,Non-Hispanic White,Active and responding,68
+20,Non-Hispanic White,Active and stable,91
+21,Non-Hispanic White,"Remission or no evidence of disease, <5 years",234
+22,Non-Hispanic White,"Remission or no evidence of disease, >5 years",247
+24,Other,Active and progressing,3
+25,Other,Active and responding,11
+26,Other,Active and stable,5
+27,Other,"Remission or no evidence of disease, <5 years",26
+28,Other,"Remission or no evidence of disease, >5 years",20
