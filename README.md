@@ -22,12 +22,12 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 - The API is used to gather general information about Breast Cancer. 
 
 ## Members of the group
--Hamza Saleem - @HSaleem352
--Mina Bagheri - @minalbm
--Dean Ninalga - @Ninalgad 
--Fozia - @FoziaY
--Shan Lian - @Lians03
--Alejandra - @AlejandraFeatherston
+* Hamza Saleem - @HSaleem352
+* Mina Bagheri - @minalbm
+* Dean Ninalga - @Ninalgad 
+* Fozia - @FoziaY
+* Shan Lian - @Lians03
+* Alejandra - @AlejandraFeatherston
 
 ## Work Breakdown 
 1. All group members will research databases on the topic and extract data from the ncbi.
@@ -44,8 +44,9 @@ Our primary objective is to comprehensively assess the severity of COVID-19 outc
 Nagaraj, G., Khaki, A., & Shah, D. (2023). Covid-19 and Cancer Consortium (CCC19) breast cancer and racial disparities outcomes study. Zenodo. https://doi.org/10.5281/zenodo.7644334
 
 ## Code snippets
+
+**Dean**
 ```python
-Dean:
 #grouping age, Covid severity and cancer status for analysis 
 age_covid_df = analysis_df[['der_age_trunc', 'severity_of_covid_19_v2', 'der_cancer_status_v4']]
 
@@ -56,7 +57,9 @@ age_covid_df = age_covid_df[age_covid_df['der_cancer_status_v4'] != 'Unknown']
 age_covid_df = age_covid_df[age_covid_df['severity_of_covid_19_v2'].notna()]
 
 ```
-Mina:
+
+**Mina**
+
 The following code would change the style of the graph to be in a pastel color.
 ```python
 plt.style.use('seaborn-v0_8-pastel')
@@ -65,7 +68,8 @@ In order for the saved graph to not be cut-off the following code is used.
 ```python
 plt.savefig("Smoking_Output_Data/SmokingQ_Plot(6).png", bbox_inches="tight")
 ```
-Shan:
+**Shan**
+
 The following code was used to generate a multiple line chart that illustrates the distribution of data among various racial groups (Race) concerning COVID-19 severity.
 ```python
 #Plot the data points for each racial group with markers
@@ -75,12 +79,16 @@ for index, row in df.iterrows():
 plt.title('COVID-19 Severity by Race')
 ```
 
-Hamza:
+**Hamza**
+
 The following code was used to create the bar graphs with the count of the entries. This is known as a count plot. This is available in the seaborn library. 
+
 ```python
 barplot = sns.countplot(US_residence_df_clean, x = 'urban_rural', hue = 'severity_of_covid_19_v2')
 ```
-API:
+
+**API**
+
 The following code was used to remove all the spans in order to extract only the text. 
 ```python
 soup = BeautifulSoup("""<h4>What about cost?</h4>
@@ -181,23 +189,26 @@ Next, I examined individuals that underwent cytotoxic chemotherapy, targeted rad
 
 ## References 
 
-**Mina**:
-How to save a matplotlib figure and fix text cutting off: https://www.youtube.com/watch?v=C8MT-A7Mvk4
-chi-squared test: Chat GPT
+**Mina**
+* [How to save a matplotlib figure and fix text cutting off](https://www.youtube.com/watch?v=C8MT-A7Mvk4)
+* [Chi-Squared Test](https://chat.openai.com/)
 
-*** Hamza ***:
-Used chatGPT for the sns.countplot() function. Sns is seaborn imported as sns and the countplot plots the length of rows for the categories. Then plots them as a bar graph
-Used ChatGPT for chi2_contingency(). The chi-square contingency test is used to determine whether there is a significant association between two categorical variables.
+**Hamza**
+* Used [ChatGPT](https://chat.openai.com/) for the sns.countplot() function. Sns is seaborn imported as sns and the countplot plots the length of rows for the categories. Then plots them as a bar graph
+* Used [ChatGPT](https://chat.openai.com/) for chi2_contingency(). The chi-square contingency test is used to determine whether there is a significant association between two categorical variables.
 
-**Alex**: 
-- I used this link for background information on the link between cancer therapy and immune system: https://www.cancer.org/cancer/managing-cancer/side-effects/low-blood-counts/infections/why-people-with-cancer-are-at-risk.html
-- I used this link for plotting multiple bar charts: https://www.geeksforgeeks.org/plotting-multiple-bar-charts-using-matplotlib-in-python/
-- I used this to get the column names: https://www.geeksforgeeks.org/how-to-get-column-names-in-pandas-dataframe/
-![image](https://github.com/HSaleem352/Bootcamp-Project1/assets/147428025/b6a83cde-2a3a-4271-9d28-df93000c4424)
+**Alex**
+* [Background information on the link between cancer therapy and immune system](https://www.cancer.org/cancer/managing-cancer/side-effects/low-blood-counts/infections/why-people-with-cancer-are-at-risk.html)   
+* [Plotting multiple bar charts](https://www.geeksforgeeks.org/plotting-multiple-bar-charts-using-matplotlib-in-python/)
+* [Get the column names](https://www.geeksforgeeks.org/how-to-get-column-names-in-pandas-dataframe/)
+
+**Shan**
+* [Heatmap function](https://plotly.com/python/heatmaps/)
+* [Chi-Squared Test](https://chat.openai.com/)
 
 
-**API**:
-How To Eliminate Span & Other HTML Tags With BeautifulSoup: https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
+**API**
+* [How To Eliminate Span & Other HTML Tags With BeautifulSoup](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/)https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-eliminate-span-html-tags/
 
 
 
